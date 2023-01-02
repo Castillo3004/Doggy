@@ -1,5 +1,7 @@
-import 'package:doggy/routes/app_routes.dart';
 import 'package:flutter/material.dart';
+
+import 'package:doggy/routes/app_routes.dart';
+import 'package:doggy/theme/app_theme.dart';
 
 
 void main() => runApp(const MyApp());
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget{
       title: 'Doggy',
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.getAppRoutes(),
+      theme: AppTheme.lightTheme,
     );
   }
 
