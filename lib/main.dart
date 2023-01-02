@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       title: 'Doggy',
       initialRoute: AppRoutes.initialRoute,
-      routes: AppRoutes.getAppRoutes(),
+      routes: AppRoutes.routes,
       theme: AppTheme.lightTheme,
     );
   }
