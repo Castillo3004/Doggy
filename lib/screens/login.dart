@@ -13,6 +13,7 @@ class LoginScreen extends StatelessWidget {
 
     final size = MediaQuery.of(context).size;
 
+    //TODO: Arreglar Imagen
     return Scaffold(
       body: Center(
         child: Container(
