@@ -1,9 +1,9 @@
 import 'package:doggy/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
-class MenuScreen extends StatelessWidget {
+class CustomMenu extends StatelessWidget {
    
-  const MenuScreen({Key? key}) : super(key: key);
+  const CustomMenu({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {

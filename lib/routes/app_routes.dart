@@ -7,14 +7,14 @@ class AppRoutes {
 
   static const initialRoute = '/splash';
   static const routeLogin = '/login';
-  static const routeMenu = '/menu';
+  static const routeSocial = '/social';
   
 
   static Map<String, Widget Function(BuildContext)> routes = {
       '/splash': (BuildContext context) => const SplashScreen(),
       '/login': (BuildContext context) => const LoginScreen(),
       '/tutorial': (BuildContext context) => const TutorialScreen(),
-      '/menu': (BuildContext context) => const MenuScreen()
+      '/social': (BuildContext context) => const SocialScreen()
 
     };
 
