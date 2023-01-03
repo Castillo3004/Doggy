@@ -1,9 +1,9 @@
 import 'package:doggy/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
-class CustomMenu extends StatelessWidget {
+class MenuScreen extends StatelessWidget {
    
-  const CustomMenu({Key? key}) : super(key: key);
+  const MenuScreen({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class _CustomMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.white,
         body: Stack(
           children: [
             Positioned(
