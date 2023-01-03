@@ -1,3 +1,4 @@
+import 'package:doggy/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
 import 'package:doggy/theme/app_theme.dart';
@@ -66,6 +67,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                     onPressed: () {
                       FocusScope.of(context).requestFocus(FocusNode());
+                      Navigator.pushNamed(context, AppRoutes.routeSocial );
                     },
                   ),
                   const SizedBox(
