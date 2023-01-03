@@ -23,7 +23,7 @@ class _SocialScreenState extends State<SocialScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               const Image(image: AssetImage('assets/puente-arcoiris.png'), height: 60,),
-              const SizedBox( width: 200),
+              const SizedBox( width: 120),
               FloatingActionButton(
                   backgroundColor: const Color.fromARGB(33, 255, 255, 255),
                   elevation: 0.8,

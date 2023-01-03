@@ -25,6 +25,7 @@ class CustomCardType2 extends StatelessWidget {
       child: Column(
         children:[
           Row(
+            
             children: [
               Container(
                 padding: const EdgeInsets.only(right: 20, top: 10, bottom: 10, left: 20),
@@ -33,17 +34,8 @@ class CustomCardType2 extends StatelessWidget {
                   backgroundImage: NetworkImage(backgroundImage),
                 ),
               ),
-              const Text('Usuario 1')
-            ],
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text('Consequat culpa laborum non deserunt sint.', style: TextStyle(fontSize: 14),),
-              
-              ),
+              const Text('Usuario 1'),
+              const SizedBox(width: 145,),
               FloatingActionButton(
                 backgroundColor: Colors.transparent,
                 elevation: 0,
@@ -53,9 +45,19 @@ class CustomCardType2 extends StatelessWidget {
                 ),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: const [
+              Padding(
+                padding: EdgeInsets.all(7.0),
+                child: Text('Consequat culpa laborum non deserunt sint.', style: TextStyle(fontSize: 13),),
+              
+              ),
+            ],
+          ),
           FadeInImage(
             image: NetworkImage(imageUrl), 
-            placeholder: const AssetImage('assets/imagen1.gif'),
+            placeholder: const AssetImage('assets/imagen1.gif',),
             width: double.infinity,
             fit: BoxFit.cover,
             height: 320,
