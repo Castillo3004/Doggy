@@ -1,4 +1,5 @@
-import 'package:doggy/routes/app_routes.dart';
+import 'package:doggy/models/auth/models.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'package:doggy/theme/app_theme.dart';
@@ -65,8 +66,11 @@ class LoginScreen extends StatelessWidget {
                       height: 50,
                       child: Center( child: Text('Ingresar'))
                     ),
-                    onPressed: () {
-                      
+                    onPressed: () async{
+                      User? user = await GoogleAuthenticator.iniciarSesion(
+                        context: context
+                      );
+                      print('${user?.displayName}, ${user?.email}');
                     },
                   ),
                   const SizedBox(

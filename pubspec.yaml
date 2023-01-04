@@ -32,10 +32,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  firebase_auth: ^1.0.1    #Desde aqui 
-  font_awesome_flutter: ^8.11.0 #/
-  google_sign_in: ^5.0.0 #/
-  firebase_core: ^1.4.0  #Hasta aqui, son dependencias para firebase y auth
+
   flutter:
     sdk: flutter
 

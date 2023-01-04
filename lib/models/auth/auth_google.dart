@@ -1,9 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class GoogleAuthenticator{
 
-  static Future<User?> iniciarSesion() async{
+  static Future<User?> iniciarSesion({required BuildContext context}) async{
 
     FirebaseAuth authenticator = FirebaseAuth.instance;
     User? user; 
@@ -17,14 +18,13 @@ class GoogleAuthenticator{
         accessToken: googleSignInAuthentication.accessToken,
         idToken: googleSignInAuthentication.idToken
       );
-    try{
-      UserCredential userCredential = await authenticator.signInWithCredential(credential);
-      user = userCredential.user;
-      return user;
-    }on FirebaseAuthException catch (e){
-      print('Error en la autenticacion');
-
-    }
+      try{
+        UserCredential userCredential = await authenticator.signInWithCredential(credential);
+        user = userCredential.user;
+        return user;
+      }on FirebaseAuthException catch (e){
+        print('Error en la autenticacion');
+      }
     }
   }
 }
