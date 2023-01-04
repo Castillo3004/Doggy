@@ -66,11 +66,7 @@ class LoginScreen extends StatelessWidget {
                       height: 50,
                       child: Center( child: Text('Ingresar'))
                     ),
-                    onPressed: () async{
-                      User? user = await GoogleAuthenticator.iniciarSesion(
-                        context: context
-                      );
-                      print('${user?.displayName}, ${user?.email}');
+                    onPressed: () {
                     },
                   ),
                   const SizedBox(
@@ -114,7 +110,12 @@ class LoginScreen extends StatelessWidget {
                       ),
                       const SizedBox( width: 10),
                       TextButton(
-                        onPressed: (){}, 
+                        onPressed: () async{
+                        User? user = await GoogleAuthenticator.iniciarSesion(
+                        context: context
+                      );
+                      
+                        }, 
                         child: 
                         const Image(
                           image: AssetImage('assets/Google.png'),
