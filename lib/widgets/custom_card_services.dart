@@ -4,9 +4,10 @@ class CustomCardService extends StatelessWidget {
 
   final String imageAsset;
   final String titleCard;
+
   
   const CustomCardService({
-    Key? key, required this.imageAsset, required this.titleCard,
+    Key? key, required this.imageAsset, required this.titleCard
   }) : super(key: key);
 
   @override
