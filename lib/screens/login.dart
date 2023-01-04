@@ -66,8 +66,7 @@ class LoginScreen extends StatelessWidget {
                       child: Center( child: Text('Ingresar'))
                     ),
                     onPressed: () {
-                      FocusScope.of(context).requestFocus(FocusNode());
-                      Navigator.pushNamed(context, AppRoutes.routeMenu);
+                      
                     },
                   ),
                   const SizedBox(
