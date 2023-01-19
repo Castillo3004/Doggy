@@ -14,8 +14,7 @@ class _SocialScreenState extends State<SocialScreen> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold( 
-      body: ListView(
+    return ListView(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         children: [
           const SizedBox(height: 20,),
@@ -60,8 +59,6 @@ class _SocialScreenState extends State<SocialScreen> {
           ),
           const CustomCardType2(imageUrl: 'https://fotografias.lasexta.com/clipping/cmsimages01/2022/08/09/3FFA8546-05CE-4608-9B69-6602D02A4C58/cachorro-pomsky_98.jpg?crop=1183,666,x0,y103&width=1900&height=1069&optimize=high&format=webply', backgroundImage: 'https://as01.epimg.net/diarioas/imagenes/2022/05/29/actualidad/1653826510_995351_1653826595_noticia_normal_recorte1.jpg')
         ],
-
-      )
     );    
   }
 }

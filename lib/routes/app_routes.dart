@@ -9,6 +9,7 @@ class AppRoutes {
   static const routeLogin = '/login';
   static const routeSocial = '/social';
   static const routeServicios = '/servicios';
+  static const rutaPrincipal = '/home';
   
 
   static Map<String, Widget Function(BuildContext)> routes = {
@@ -16,7 +17,8 @@ class AppRoutes {
       '/login': (BuildContext context) => const LoginScreen(),
       '/tutorial': (BuildContext context) => const TutorialScreen(),
       '/social': (BuildContext context) => const SocialScreen(),
-      '/servicios': (BuildContext context) => const ServiciosScreen()
+      '/servicios': (BuildContext context) => const ServiciosScreen(),
+      '/home': (BuildContext context) => const HomeScreen()
 
     };
 

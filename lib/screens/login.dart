@@ -66,7 +66,7 @@ class LoginScreen extends StatelessWidget {
                       child: Center( child: Text('Ingresar'))
                     ),
                     onPressed: () {
-                      Navigator.pushNamed(context, AppRoutes.routeServicios);
+                      Navigator.pushNamed(context, AppRoutes.rutaPrincipal);
                     },
                   ),
                   const SizedBox(
