@@ -20,7 +20,7 @@ class Navegacion extends StatelessWidget {
       showSelectedLabels: false,
       showUnselectedLabels: false,
 
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.orangeAccent.shade100,
       unselectedItemColor: Colors.black,
       selectedItemColor: AppTheme.primary,
 
@@ -30,19 +30,19 @@ class Navegacion extends StatelessWidget {
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.access_time_filled_rounded),
+          icon: Icon(Icons.network_locked_outlined),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.access_time_filled_rounded),
+          icon: Icon(Icons.elderly_rounded),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.access_time_filled_rounded),
+          icon: Icon(Icons.account_balance_wallet_rounded),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.access_time_filled_rounded),
+          icon: Icon(Icons.add_to_photos_rounded),
           label: 'Peluqueria'
         ),
         

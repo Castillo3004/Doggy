@@ -11,22 +11,20 @@ class ServiciosScreen extends StatelessWidget {
 
     final size = MediaQuery.of(context).size;
 
-    return SizedBox(
-        width: size.width,
-        child: Center(
-          child: Column(
-            children: const [
-              CustomCardService(imageAsset: 'assets/peluqueria.png',titleCard: 'Peluqueria'),
-              SizedBox(height: 30,),
-              CustomCardService(imageAsset: 'assets/veterinaria.png',titleCard: 'Veterinaria'),
-              SizedBox(height: 30,),
-              CustomCardService(imageAsset: 'assets/cremacion.png',titleCard: 'Cremacion'),
-              SizedBox(height: 30,),
-              CustomCardService(imageAsset: 'assets/funeral.png',titleCard: 'Funeral'),
-              SizedBox(height: 30,)
-            ]
-          ),
-        ),
+    return Center(
+      child: Column(
+        children:[
+          SizedBox(height: size.height * 0.2),
+          const CustomCardService(imageAsset: 'assets/peluqueria.png',titleCard: 'Peluqueria', colorCarta: Color(0xffB0D2E5)),
+          const SizedBox(height: 30,),
+          const CustomCardService(imageAsset: 'assets/veterinaria.png',titleCard: 'Veterinaria', colorCarta:  Color(0xffD0B167),),
+          const SizedBox(height: 30,),
+          const CustomCardService(imageAsset: 'assets/cremacion.png',titleCard: 'Cremacion', colorCarta: Color(0xffE0775A),),
+          const SizedBox(height: 30,),
+          const CustomCardService(imageAsset: 'assets/funeral.png',titleCard: 'Funeral', colorCarta: Color(0xff3891F4),),
+          const SizedBox(height: 30,)
+        ]
+      ),
     );
   }
 }
