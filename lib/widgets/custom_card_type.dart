@@ -36,12 +36,10 @@ class CustomCardType2 extends StatelessWidget {
               ),
               const Text('Usuario 1'),
               const SizedBox(width: 145,),
-              FloatingActionButton(
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                mini: true,
-                onPressed: (){},
-                child: const Icon(Icons.bookmark_add, size: 25, color: Colors.black),
+              IconButton(
+                  onPressed: (){}, 
+                  icon: const Icon(Icons.bookmark_add, size: 25, color: Colors.black),
+                  splashRadius: 25,
                 ),
             ],
           ),
@@ -74,26 +72,20 @@ class CustomCardType2 extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                FloatingActionButton(
-                  backgroundColor: Colors.transparent,
-                  elevation: 0,
-                  mini: true,
-                  onPressed: (){},
-                  child: const Icon(Icons.favorite, size: 25, color: Colors.black,),
+                IconButton(
+                  onPressed: (){}, 
+                  icon: const Icon(Icons.favorite, size: 25, color: Colors.black),
+                  splashRadius: 25,
                 ),
-                FloatingActionButton(
-                  backgroundColor: Colors.transparent,
-                  elevation: 0,
-                  mini: true,
-                  onPressed: (){},
-                  child: const Icon(Icons.comment, size: 25, color: Colors.black,),
+                IconButton(
+                  onPressed: (){}, 
+                  icon: const Icon(Icons.comment, size: 25, color: Colors.black),
+                  splashRadius: 25,
                 ),
-                FloatingActionButton(
-                  backgroundColor: Colors.transparent,
-                  elevation: 0,
-                  mini: true,
-                  onPressed: (){},
-                  child: const Icon(Icons.share, size: 25, color: Colors.black,),
+                IconButton(
+                  onPressed: (){}, 
+                  icon: const Icon(Icons.share, size: 25, color: Colors.black),
+                  splashRadius: 25,
                 ),
               ],
             ),

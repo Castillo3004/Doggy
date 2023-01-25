@@ -17,8 +17,10 @@ class AppRoutes {
       '/login': (BuildContext context) => const LoginScreen(),
       '/tutorial': (BuildContext context) => const TutorialScreen(),
       '/social': (BuildContext context) => const SocialScreen(),
+      '/perfil_m': (BuildContext context) => const PerfilMascotaScreen(),
       '/servicios': (BuildContext context) => const ServiciosScreen(),
-      '/home': (BuildContext context) => const HomeScreen()
+      '/home': (BuildContext context) => const HomeScreen(),
+
 
     };
 

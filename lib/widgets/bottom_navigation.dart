@@ -21,28 +21,29 @@ class Navegacion extends StatelessWidget {
       showUnselectedLabels: false,
 
       backgroundColor: Colors.orangeAccent.shade100,
+      type:BottomNavigationBarType.fixed,
       unselectedItemColor: Colors.black,
       selectedItemColor: AppTheme.primary,
 
       items: const[
         BottomNavigationBarItem(
-          icon: Icon(Icons.access_time_filled_rounded),
+          icon: Icon(Icons.home),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.network_locked_outlined),
+          icon: ImageIcon(AssetImage('assets/servicios.png')),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.elderly_rounded),
+          icon: ImageIcon(AssetImage('assets/tienda.png')),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_balance_wallet_rounded),
+          icon: ImageIcon(AssetImage('assets/curso.png')),
           label: 'Peluqueria'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.add_to_photos_rounded),
+          icon: ImageIcon(AssetImage('assets/perfil.png')),
           label: 'Peluqueria'
         ),
         
