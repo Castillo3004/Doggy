@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:doggy/theme/app_theme.dart';
 
-import '../widgets/widgets.dart';
+import '../../widgets/widgets.dart';
 
 class LoginScreen extends StatelessWidget {
    
