@@ -16,7 +16,7 @@ class CustomAppBar extends StatelessWidget{
       return Row(
         children: const[
           Image(image: AssetImage('assets/puente-arcoiris.png'), fit: BoxFit.cover, height: 60),
-          SizedBox(width: 20,),
+          SizedBox(width: 20),
           Text('| Servicios', style: TextStyle(color: Color(0xffE2AF6E), fontFamily: 'AveriaSansLibre', fontSize: 22)) 
         ],
       );
