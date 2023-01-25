@@ -1,6 +1,6 @@
 import 'package:doggy/providers/nav_provider.dart';
 import 'package:doggy/screens/screens.dart';
-import 'package:doggy/widgets/bottom_navigation.dart';
+import 'package:doggy/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -12,11 +12,17 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      appBar: AppBar(
+        title: const CustomAppBar(),
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+      ),
       body: _ItemsNavigation(),
       bottomNavigationBar: const Navegacion(),
     );
   }
 }
+
 
 class _ItemsNavigation extends StatelessWidget{
   
@@ -53,3 +59,4 @@ class _ItemsNavigation extends StatelessWidget{
   }
 
 }
+

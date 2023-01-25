@@ -14,7 +14,7 @@ class MarketPetScreen extends StatelessWidget {
         child: Column(
          children: [
           SizedBox(
-            height: size.height *0.1,
+            height: size.height *0.01,
           ),
            Row(
               mainAxisAlignment: MainAxisAlignment.center,

@@ -14,7 +14,7 @@ class ServiciosScreen extends StatelessWidget {
     return Center(
       child: Column(
         children:[
-          SizedBox(height: size.height * 0.2),
+          SizedBox(height: size.height * 0.03),
           const CustomCardService(imageAsset: 'assets/peluqueria.png',titleCard: 'Peluqueria', colorCarta: Color(0xffB0D2E5)),
           const SizedBox(height: 30,),
           const CustomCardService(imageAsset: 'assets/veterinaria.png',titleCard: 'Veterinaria', colorCarta:  Color(0xffD0B167),),

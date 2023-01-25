@@ -1,4 +1,3 @@
-import 'package:doggy/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class ButtonMarket extends StatelessWidget {
@@ -21,7 +20,7 @@ class ButtonMarket extends StatelessWidget {
       child: ElevatedButton(
         onPressed: (){},
         style: ElevatedButton.styleFrom(
-          backgroundColor: Color.fromARGB(18, 151, 151, 150),
+          backgroundColor: const Color.fromARGB(7, 151, 151, 150),
           shadowColor: Colors.transparent,
           minimumSize: const Size(170, 210),
           maximumSize: const Size(170, 210),
