@@ -41,6 +41,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   introduction_screen: ^3.1.1  # Liberia para intro
   provider: ^6.0.5
+
+  # para iniciar firebase core
+  firebase_core: ^2.4.1
+
+  
   
 
 dev_dependencies:
