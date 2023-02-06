@@ -1,5 +1,9 @@
 
 
+export 'package:doggy/widgets/custom_entrenamiento_button.dart';
+
+export 'package:doggy/widgets/custom_appBar_services.dart';
+
 export 'package:doggy/widgets/custom_appBar.dart';
 
 export 'package:doggy/widgets/bottom_navigation.dart';

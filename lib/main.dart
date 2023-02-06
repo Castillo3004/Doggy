@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget{
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Doggy',
-        initialRoute: AppRoutes.initialRoute,
+        initialRoute: AppRoutes.rutaPrincipal,
         routes: AppRoutes.routes,
         theme: AppTheme.lightTheme,
       )

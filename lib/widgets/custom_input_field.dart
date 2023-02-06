@@ -1,3 +1,4 @@
+import 'package:doggy/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class CustomInputField extends StatelessWidget {
@@ -33,7 +34,7 @@ class CustomInputField extends StatelessWidget {
         hintText: hintText,
         labelText: labelText,
         helperText: helperText,
-        suffixIcon: suffixIcon == null ? null: Icon(suffixIcon),
+        suffixIcon: suffixIcon == null ? null: Icon(suffixIcon, color: AppTheme.primary,),
       ),
 
     );

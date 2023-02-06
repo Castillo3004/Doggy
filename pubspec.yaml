@@ -41,8 +41,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   introduction_screen: ^3.1.1  # Liberia para intro
   provider: ^6.0.5
+  
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
   flutter_test:
     sdk: flutter
 
@@ -55,7 +57,10 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+flutter_icons:
+  android: "launcher_icon"
+  ios: true 
+  image_path: "assets/puente-arcoiris.png"
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -80,6 +85,9 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+
+
+
   fonts:
     - family: AveriaSansLibre
       fonts:

@@ -21,6 +21,10 @@ class AppRoutes {
       '/servicios': (BuildContext context) => const ServiciosScreen(),
       '/home': (BuildContext context) => const HomeScreen(),
 
+      '/peluqueria': (BuildContext context) => const PeluqueriaScreen(),
+      '/veterinaria': (BuildContext context) => const VeterinariaScreen(),
+      '/funeral': (BuildContext context) => const FuneralScreen(),
+
 
     };
 

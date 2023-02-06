@@ -15,13 +15,11 @@ class ServiciosScreen extends StatelessWidget {
       child: Column(
         children:[
           SizedBox(height: size.height * 0.03),
-          const CustomCardService(imageAsset: 'assets/peluqueria.png',titleCard: 'Peluqueria', colorCarta: Color(0xffB0D2E5)),
+          const CustomCardService(imageAsset: 'assets/peluqueria.png',titleCard: 'Peluqueria', colorCarta: Color(0xffB0D2E5), ruta: '/peluqueria'),
           const SizedBox(height: 30,),
-          const CustomCardService(imageAsset: 'assets/veterinaria.png',titleCard: 'Veterinaria', colorCarta:  Color(0xffD0B167),),
+          const CustomCardService(imageAsset: 'assets/veterinaria.png',titleCard: 'Veterinaria', colorCarta:  Color(0xffD0B167), ruta: '/veterinaria'),
           const SizedBox(height: 30,),
-          const CustomCardService(imageAsset: 'assets/cremacion.png',titleCard: 'Cremacion', colorCarta: Color(0xffE0775A),),
-          const SizedBox(height: 30,),
-          const CustomCardService(imageAsset: 'assets/funeral.png',titleCard: 'Funeral', colorCarta: Color(0xff3891F4),),
+          const CustomCardService(imageAsset: 'assets/funeral.png',titleCard: 'Funeral', colorCarta: Color(0xffE0775A), ruta: '/funeral'),
           const SizedBox(height: 30,)
         ]
       ),

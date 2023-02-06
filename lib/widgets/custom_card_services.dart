@@ -5,16 +5,19 @@ class CustomCardService extends StatelessWidget {
   final String imageAsset;
   final String titleCard;
   final Color colorCarta;
+  final String ruta; 
 
   
   const CustomCardService({
-    Key? key, required this.imageAsset, required this.titleCard, required this.colorCarta
+    Key? key, required this.imageAsset, required this.titleCard, required this.colorCarta, required this.ruta
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: (){},
+      onPressed: (){
+        Navigator.pushNamed(context, ruta);
+      },
       style: ElevatedButton.styleFrom(
         backgroundColor: colorCarta,
         elevation: 0,
