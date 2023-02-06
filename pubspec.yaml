@@ -42,8 +42,10 @@ dependencies:
   introduction_screen: ^3.1.1  # Liberia para intro
   provider: ^6.0.5
 
-  # para iniciar firebase core
+  # para iniciar firebase core, firestore, fireauth
   firebase_core: ^2.4.1
+  cloud_firestore: ^4.3.1
+  firebase_auth: ^4.2.5
 
   
   
